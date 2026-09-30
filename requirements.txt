@@ -6,3 +6,5 @@
 ### Built-in Python Modules
 - **`os`**: Used to access system environment variables (`HF_TOKEN`) securely.
 - **`time`**: Used to calculate and display API response latency.
+huggingface_hub
+fpdf2
