@@ -1,1 +1,8 @@
-huggingface_hub
+## Requirements & Dependencies
+
+### External Packages
+- **`huggingface_hub`**: Used to interact with Hugging Face Inference API endpoints via `InferenceClient`.
+
+### Built-in Python Modules
+- **`os`**: Used to access system environment variables (`HF_TOKEN`) securely.
+- **`time`**: Used to calculate and display API response latency.
