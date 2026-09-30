@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 
 # Initialize client using environment variable token
 client = InferenceClient(
-    api_key=os.environ["HF_TOKEN"],  # <-- Keep this exact text: "HF_TOKEN"
+    api_key=os.environ["HF_TOKEN"],  
     provider="auto"
 )
 
